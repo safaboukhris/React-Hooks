@@ -1,38 +1,41 @@
-.App {
-  text-align: center;
+        /* Css for our root component */
+body{
+    background-image:url('bg2.avif') ; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 50px; 
+    margin-right:100px ;
+}
+.movie-list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.title{
+    color: whitesmoke;
+    font-weight: bolder;
+    display: flex;
+    justify-content: CENTER;
+    padding: 20px;
+    font-style: italic;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+.input-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(108, 14, 102);
+    height: 70px;
+    margin-left: -30px;
+    margin-bottom: 50px;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.addInput{
+    padding:7px;
+    font-size: 16px;
+    border: 1px solid #f7f4f4;
+    border-radius: 5px; 
+    width: 600px;
+    justify-content: center;
+    background-color: rgb(241, 240, 240);
 }
