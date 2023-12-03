@@ -1,6 +1,6 @@
         /* Css for our root component */
 body{
-    background-image:url('bg2.avif') ; 
+    background-image:url('bg9.jpg') ; 
     background-repeat: no-repeat;
     background-size: cover;
     margin-left: 50px; 
@@ -38,4 +38,11 @@ body{
     width: 600px;
     justify-content: center;
     background-color: rgb(241, 240, 240);
+}
+
+        /* Large devices (laptops/desktops, 992px and up) */
+@media (max-width: 992px) {
+    .input-container {
+        width: 100px; 
+    }
 }

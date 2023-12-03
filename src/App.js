@@ -13,7 +13,7 @@ function App() {
         {
             title:'Mary Queen of Scots',
             description: 'Mary Stuart, Queen of Scotland she is married to the French Dauphin at 16 and widowed at 18, she returned to Scotland to reclaim her throne .',
-            rating:3,
+            rating: 4.2,
             poster:'img11.jpg'
         },
         {
@@ -25,7 +25,7 @@ function App() {
         {
             title:` Me Before You`,
             description: `Young Louisa "Lou" moves from one job to another for herping family. Her attitude is put to the test when she becomes a caregiver for a paralyzed.`,
-            rating:4,
+            rating:3.5,
             poster:'img14.jpg'
         },
         {
